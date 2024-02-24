@@ -20,6 +20,9 @@ export default async function HomePage() {
       //   }}
       className="bg-secondaryGradient h-[90vh] flex flex-col gap-20 md:p-40 overflow-y-scroll"
     >
+      <h1 className="hidden">
+        Duckycity farm on my island and get back your 50% rewards every week!!!
+      </h1>
       <Commission />
       <Lands />
       <p className="px-12 text-white">

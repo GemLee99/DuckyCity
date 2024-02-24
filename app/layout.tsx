@@ -12,7 +12,7 @@ interface RootLayout {
 export const metadata: Metadata = {
   title: "Ducky city - Farm with me #482",
   description: "Farm on my island and get 50% back, pay every weeek",
-  icons: "/icon.png",
+  icons: "/logo.png",
   keywords:
     "Duckycity, Ducky nft, how to play ducky city, how to play ducky, best farm ducky",
 };
