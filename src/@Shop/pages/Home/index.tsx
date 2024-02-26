@@ -1,8 +1,10 @@
 // "use client";
-import useBreakpoints from "@/src/hooks/useBreakpoints";
-import Image from "next/image";
+// import useBreakpoints from "@/src/hooks/useBreakpoints";
+// import Image from "next/image";
 import Lands from "./components/Lands";
 import Commission from "./components/Commission";
+import CountdownTimer from "./components/Timer";
+import Contact from "./components/Contact";
 // import CarouselProductBox from '../../components/ProductBox/CarouselProductBox'
 // import { FaStar } from 'react-icons/fa6'
 
@@ -24,10 +26,19 @@ export default async function HomePage() {
         Duckycity farm on my island and get back your 50% rewards every week!!!
       </h1>
       <Commission />
-      <Lands />
-      <p className="px-12 text-white">
+      <div className="grid grid-cols-1 gap-24 md:grid-cols-2 md:min-h-[50vh]">
+        <div className=" md:px-32 md:border-4 md:rounded-2xl md:border-white md:shadow-2xl md:py-24">
+          <CountdownTimer />
+        </div>
+        <div className=" md:px-32 md:border-4 md:rounded-2xl md:border-white md:shadow-2xl md:py-24">
+          <Lands />
+        </div>
+      </div>
+
+      <p className="p-12 bg-white pixel text-[0.8rem] my-12 text-red-500">
         More feature will be update soon, Please keep follow me, Many Thanks!!!
       </p>
+      <Contact />
     </div>
   );
 }

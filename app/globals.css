@@ -1,12 +1,12 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
-@import 'react-toastify/dist/ReactToastify.css';
-
+@import "react-toastify/dist/ReactToastify.css";
 
 * {
   margin: 0;
@@ -14,20 +14,24 @@
   box-sizing: border-box;
 }
 
-.slick-prev::before, .slick-next::before {
-    position: absolute;
-    color: #60A5FA !important;
-    font-size: 31px !important;
-    left: -5px;
+.slick-prev::before,
+.slick-next::before {
+  position: absolute;
+  color: #60a5fa !important;
+  font-size: 31px !important;
+  left: -5px;
 }
 
-
-
 .lineClamp {
-	display: -webkit-box;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pixel {
+  font-family: "Press Start 2P", system-ui;
+  font-style: normal;
 }
 
 /* .slick-slider.slick-initialized .slick-list .slick-track {
@@ -39,12 +43,11 @@
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    padding-right: 0; 
+    padding-right: 0;
     box-sizing: border-box;
   }
 
   body::-webkit-scrollbar {
     display: none;
   }
-
 }

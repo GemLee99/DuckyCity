@@ -18,28 +18,28 @@ export default function Commission() {
             <TbDiscount2 className="" />
           </div>
         </div> */}
-        <div className="relative w-full flex overflow-hidden md:w-2/5 aspect-[12/3] md:aspect-[18/3] ">
+        <div className="relative w-full flex overflow-hidden md:w-2/5 aspect-[8/3] md:aspect-[18/3] ">
           <div className="w-full h-full p-12">
             <div className="flex items-center h-full md:h-auto w-full px-12 text-[1rem] md:text-[1.2rem] border-2 text-transparent shadow-sank rounded-md bg-gradient-to-r from-blue-600 to-orange-600 bg-clip-text">
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   "Welcome to my islands !!!",
-                  2000, // wait 1s before replacing "Mice" with "Hamsters"
+                  1000, // wait 1s before replacing "Mice" with "Hamsters"
                   "Why you should farm on my island?",
-                  2000,
+                  1000,
                   "Cause I will send you back 50% of the profits I received",
-                  2000,
+                  1000,
                   "At the end of each week",
                   1000,
                   "by sending DCE to your wallet address",
-                  2000,
+                  1000,
                   "Hope you have a great experience on my island !!!",
                   1000,
                 ]}
                 wrapper="span"
                 speed={50}
-                className="text-[1rem] md:text-[1.4rem] inline-block font-[600]"
+                className="text-[0.8rem] md:text-[1.4rem] inline-block font-[600] pixel"
                 repeat={Infinity}
               />
             </div>

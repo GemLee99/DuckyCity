@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     <HeaderContainer>
       <div className="max-w-[1600px] lg:px-20 flex mx-auto items-center justify-between ">
         <h1 className="hidden">Ducky city farm - Vitor Guide</h1>
-        <div className="relative flex items-center w-1/2 gap-6">
+        <div className="relative flex items-center w-4/5 gap-6 md:w-1/2">
           <Link href={"/"}>
             <Image
               src={"/logo.png"}
@@ -22,13 +22,15 @@ const Header: React.FC = () => {
               alt="Duckycity guide Victor"
             />
           </Link>
-          <span className="text-transparent text-[1rem] md:text-[2rem] font-bold rounded-md shadow-sank bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text">
+          <span className="pixel  text-transparent text-[1rem] md:text-[1.4rem] font-bold rounded-md shadow-sank bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text">
             Victor Farm
           </span>
         </div>
-        <div className="flex gap-6 items-centr">
+        <div className="flex items-center gap-6">
           {/* <span className="font-bold text-gray-500">News (Comming soon)</span> */}
-          <span className="font-bold text-gray-500">Guide (Comming soon)</span>
+          <span className="font-bold text-gray-500 pixel text-[0.8rem]">
+            Guide
+          </span>
         </div>
         {/* {tablet ? (
 					<div className="flex justify-center w-1/3 ">
