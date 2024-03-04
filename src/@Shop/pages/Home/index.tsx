@@ -5,6 +5,7 @@ import Lands from "./components/Lands";
 import Commission from "./components/Commission";
 import CountdownTimer from "./components/Timer";
 import Contact from "./components/Contact";
+import Link from "next/link";
 // import CarouselProductBox from '../../components/ProductBox/CarouselProductBox'
 // import { FaStar } from 'react-icons/fa6'
 
@@ -27,8 +28,24 @@ export default async function HomePage() {
       </h1>
       <Commission />
       <div className="grid grid-cols-1 gap-24 md:grid-cols-2 md:min-h-[50vh]">
-        <div className=" md:px-32 md:border-4 md:rounded-2xl md:border-white md:shadow-2xl md:py-24">
+        <div className="bg-white md:px-32 md:border-4 md:rounded-2xl md:border-white md:shadow-2xl md:py-24">
           <CountdownTimer />
+          <div className="flex flex-col items-center justify-center gap-4 my-24">
+            <p className="text-[1.2rem] font-[600] pixel">
+              Lastweek activities list (26/2-3/3)
+            </p>
+            <Link
+              className="font-bold text-blue-500 pixel"
+              target="_blank"
+              href="https://r5ti1gkcf4u.sg.larksuite.com/wiki/WLAhwYbISiXaZRkKV2GlHU0qg9b?from=from_copylink"
+            >
+              Link
+            </Link>
+            <p className="pixel text-[0.6rem]">
+              Please DM me and send me full address, Thank your for your hard
+              work!!!{" "}
+            </p>
+          </div>
         </div>
         <div className=" md:px-32 md:border-4 md:rounded-2xl md:border-white md:shadow-2xl md:py-24">
           <Lands />
